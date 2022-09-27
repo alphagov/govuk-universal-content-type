@@ -1,0 +1,163 @@
+{% extends "layout.html" %}
+{% set bodyClasses = "start-page" %}
+{% set hideNav = true %}
+{% set hidePrimaryNav = true %}
+
+{% block pageTitle %}
+ {{ pageHeading }} - GOV.UK
+{% endblock %}
+
+{% set pageHeading = 'Universal Content Type' %}
+
+{% block beforeContent %}
+{# beforeContent is reseting default phase banner #}
+{% endblock %}
+
+{% block main %}
+<div class="start-page-banner">
+  <div class="govuk-width-container">
+     <div class="govuk-phase-banner">
+     <div class="govuk-grid-row">
+       <div class="govuk-grid-column-two-thirds">
+
+         <div class="shared-banner-elements">
+           <div class="govuk-breadcrumbs">
+       <ol class="govuk-breadcrumbs__list">
+         <li class="govuk-breadcrumbs__list-item">
+           <a class="govuk-breadcrumbs__link" href="#">Home</a>
+         </li>
+         <li class="govuk-breadcrumbs__list-item">
+           <a class="govuk-breadcrumbs__link" href="#">Level one</a>
+         </li>
+         <li class="govuk-breadcrumbs__list-item">
+           <a class="govuk-breadcrumbs__link" href="#">Level two</a>
+         </li>
+       </ol>
+     </div>
+         <div class="research-banner">
+           <p class="govuk-body-s">Research banner with <a href="#">link to a survey</a></p>
+           </div>
+
+           <div class="logo">
+             <div class="crest"></div>
+             <div class="dept-name">
+               <p>Cabinet Office</p>
+               </div>
+             </div>
+
+         <h1 class="govuk-heading-xl">Heading H1</h1>
+
+         <p class="content-type-name">Content type name
+         <span class="content-desc">&mdash; Example of a description, which may be a few lines long, and it follows the content type name, which may have a role in helping users understand the type and purpose of the document (or it may not).</span></p>
+
+         <div class="page-actions-button">
+          <span class="govuk-body-s"><a href="#">Get emails about this page</a></span>
+         </div>
+
+         <div class="page-actions-button">
+         <span class="govuk-body-s"><a href="#">Print this page</a></span>
+         </div>
+        </div>
+       </div>
+
+       <div class="govuk-grid-column-one-third">
+         <div class="translations">
+           <div class="language-1">
+         <p class="govuk-body-s">English</p>
+       </div>
+
+         <div class="language-2">
+           <p class="govuk-body-s"><a href="#">Welsh</a></p>
+         </div>
+       </div>
+     </div>
+     </div>
+
+       </div>
+     </div>
+     </div>
+
+
+     <div class="govuk-width-container content-type-body">
+       <div class="govuk-grid-row">
+         <div class="govuk-grid-column-two-thirds">
+           <div class="metadata">
+             <span class="govuk-body-s">From: Cabinet Office</br>
+             From: Department Name</br>
+             Published: 27 September 2022</br>
+             </span>
+             </div>
+
+
+
+
+             <aside class="" role="complementary">
+               <nav class="app-contents-list" aria-label="Pages in this guide" role="navigation">
+                 <h2 class="app-contents-list__title">
+                   Contents
+                 </h2>
+                 <ol class="app-contents-list__list">
+                   <li class="app-contents-list__list-item app-contents-list__list-item--dashed app-contents-list__list-item--active">
+                     <a href="#">
+                       Section one
+                     </a>
+                   </li>
+                   <li aria-current="true" class="app-contents-list__list-item app-contents-list__list-item--dashed">
+                     <a href="#">
+                      Section two
+                      </a>
+                   </li>
+                   <li class="app-contents-list__list-item app-contents-list__list-item--dashed">
+                     <a href="#">
+                       Section three
+                     </a>
+                   </li>
+                 </ol>
+               </nav>
+             </aside>
+
+           <p>This is an example of the first section of page of content.</p>
+         </div>
+
+         <div class="govuk-grid-column-one-third">
+           <h2 class="govuk-heading-m app-related-items" id="subsection-title">
+             Related links
+           </h2>
+           <nav role="navigation" aria-labelledby="subsection-title">
+             <ul class="govuk-list govuk-!-font-size-16">
+               <li>
+                 <a href="#">
+                   Related link
+                 </a>
+               </li>
+               <li>
+                 <a href="#">
+                   Related link
+                 </a>
+               </li>
+               <li>
+                 <a href="#" class="govuk-!-font-weight-bold">
+                   More <span class="govuk-visually-hidden">in Subsection</span>
+                 </a>
+               </li>
+             </ul>
+         </div>
+       </div>
+
+         </div>
+
+
+ {# pulls in default gov uk template #}
+ {{super()}}
+{% endblock %}
+
+{% block content %}
+
+
+</div>
+</div>
+
+
+</div>
+
+{% endblock %}

@@ -16,3 +16,122 @@ $govuk-assets-path: '/govuk/assets/';
 @import "patterns/task-list";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+.govuk-header__content {
+  visibility: hidden !important;
+}
+
+.translations {
+  border-top: 1px solid $govuk-border-colour;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.language-1 {
+  margin-right: 25px;
+  float: left;
+}
+
+.language-2 {
+}
+
+.govuk-phase-banner {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 0px;
+}
+
+.important-actions a {
+color: white;
+}
+
+start-page .govuk-phase-banner {
+  margin-bottom: govuk-spacing(6);
+}
+
+.start-page main {
+  padding-top: 0;
+}
+
+.start-page-banner {
+  padding-bottom: 5px;
+  background-color: govuk-colour("light-grey");
+  color: #fff;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.info-banner {
+background: #f3f2f1;
+padding: 50px 0 40px 0;
+}
+
+.extra-line-height {
+  line-height: 1.7em;
+}
+
+.govuk-list-bullet {
+  margin-left: -20px;
+}
+
+.shared-banner-elements {
+  margin-top: 20px;
+}
+
+.research-banner {
+  padding: 15px 15px 2px 15px;
+  background-color: white;
+  border-left: 10px solid #00703c;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+
+.logo {
+  border-left: 3px solid black;
+  margin-right: 5px;
+}
+
+.dept-name {
+  padding-left: 5px;
+  margin-top: -20px;
+}
+
+.crest {
+  background: url(../images/crest.png) no-repeat 6px 0;
+  background-size: 35px;
+  width: 50px;
+  height: 50px;
+}
+
+.page-actions-button {
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid $govuk-border-colour;
+  padding: 10px 10px 10px 10px;
+  margin-right: 5px;
+  background: white;
+}
+
+.content-type-name {
+  font-weight: bold;
+}
+
+.content-desc {
+  font-weight: normal;
+}
+
+.app-related-items {
+  border-top: 2px solid #1d70b8;
+    padding-top: 10px;
+}
+
+.metadata {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #1d70b8;
+}
+
+.content-type-body {
+  padding-top: 30px;
+}

@@ -1,0 +1,69 @@
+
+{% extends "layout.html" %}
+{% set bodyClasses = "start-page" %}
+
+{% block pageTitle %}
+GOV.UK Universal Content Type
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+
+      <div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="#">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="#">Level one</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="#">Level two</a>
+    </li>
+  </ol>
+</div>
+
+      <p>Research banner</p>
+
+      <p>Logo</p>
+
+      <h1 class="govuk-heading-xl">
+      Heading
+      </h1>
+
+      <p>Content format name</p>
+      <p>Description</p>
+
+      <p>Get emails about this page</p>
+      <p>Print this page</p>
+
+      <p>Metadata</p>
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      <div class="translations">
+        <div class="language-1">
+      <p class="govuk-body-s">English</p>
+    </div>
+
+      <div class="language-2">
+        <p class="govuk-body-s"><a href="#">Welsh</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <p>Contents list</p>
+      <p>Body content</p>
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      <p>Related links</p>
+    </div>
+  </div>
+{% endblock %}
