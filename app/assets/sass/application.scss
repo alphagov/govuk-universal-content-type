@@ -128,9 +128,24 @@ padding: 50px 0 40px 0;
 }
 
 .metadata {
-  margin-bottom: 30px;
-  padding: 20px;
-  border: 2px solid #1d70b8;
+  margin: 0 auto;
+  display: block;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.metadata p {
+  margin-bottom: 7px;
+  font-size: 90%;
+}
+
+.from-place {
+
+  padding-right: 20px;
+}
+
+.publish-date {
+  display: block;
 }
 
 .content-type-body {
@@ -138,6 +153,51 @@ padding: 50px 0 40px 0;
 }
 
 .devolved-admin-picker {
-  background: $govuk-border-colour;
-  padding: 10px;
+  display: block;
+  padding: 10px 0 10px 0;
+}
+
+.devolved-admin-picker-selected {
+  display: inline-block;
+  background: govuk-colour("green");
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.devolved-admin-picker-selected p {
+  margin-bottom: 0;
+  color: white;
+}
+
+.devolved-admin-picker-nations {
+  margin-top: 5px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+
+.generic-notice {
+border: 1px solid $govuk-border-colour;
+margin: 10px 0 10px 0;
+border-radius: 3px;
+}
+
+.generic-notice-title {
+background: #ffdd00;
+padding: 15px 15px 15px 15px;
+}
+
+.generic-notice-body {
+background: white;
+padding: 15px;
+}
+
+.generic-notice-body p {
+margin-bottom: -5px;
+}
+
+.generic-notice-title h2 {
+  margin-bottom: -5px;
 }
