@@ -106,9 +106,9 @@ padding: 50px 0 40px 0;
 }
 
 .page-actions-button {
-  border-radius: 3px;
+  border-radius: 2px;
   display: inline-block;
-  border: 1px solid $govuk-border-colour;
+  border: 1px solid govuk-colour("blue");
   padding: 10px 10px 10px 10px;
   margin-right: 5px;
   background: white;
@@ -159,9 +159,9 @@ padding: 50px 0 40px 0;
 
 .devolved-admin-picker-selected {
   display: inline-block;
-  background: govuk-colour("green");
-  padding: 5px;
-  border-radius: 3px;
+  background: govuk-colour("blue");
+  padding: 7px;
+  border-radius: 2px;
 }
 
 .devolved-admin-picker-selected p {
@@ -181,7 +181,7 @@ padding: 50px 0 40px 0;
 .generic-notice {
 border: 1px solid $govuk-border-colour;
 margin: 10px 0 10px 0;
-border-radius: 3px;
+border-radius: 2px;
 }
 
 .generic-notice-title {
