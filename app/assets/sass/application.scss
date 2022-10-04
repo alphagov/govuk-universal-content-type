@@ -246,6 +246,7 @@ margin-bottom: -5px;
 }
 
 .doc-container {
+  margin-top: 50px;
   display: block;
   height: 210px;
 }
@@ -290,4 +291,13 @@ margin-bottom: 10px;
 
 .documents-chunk {
   margin-top: 50px;
+}
+
+.cta-block {
+  background: #f3f2f1;
+  padding: 20px;
+}
+
+.cta-block p {
+  margin-bottom: 3px;
 }
