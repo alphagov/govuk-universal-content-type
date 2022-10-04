@@ -88,22 +88,33 @@ padding: 50px 0 40px 0;
 
 
 .logo {
-  border-left: 3px solid black;
+  border-left: 2px solid black;
   margin-right: 5px;
-  padding-top: 10px;
+  padding-top: 2px;
+}
+
+.logo-1 {
+  border-left: 2px solid #006c56;
+  margin-right: 5px;
+  padding-top: 2px;
 }
 
 .dept-name {
-  padding-left: 5px;
-  margin-top: -20px;
+  padding-left: 7px;
+  margin-top: -15px;
 }
+
 
 .crest {
   background: url(../images/crest.png) no-repeat 6px 0;
-  background-size: 35px;
-  width: 50px;
-  height: 50px;
+  background-size: 30px;
+  width: 40px;
+  height: 40px;
+  padding-bottom: 5px;
+  padding-left: 7px;
 }
+
+
 
 .page-actions-button {
   border-radius: 2px;
@@ -131,7 +142,7 @@ padding: 50px 0 40px 0;
   margin: 0 auto;
   display: block;
   clear: both;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .metadata p {
@@ -204,4 +215,57 @@ margin-bottom: -5px;
 
 .main-content {
   margin-top: 10px;
+}
+
+.change-notes {
+  border-top: 1px solid $govuk-border-colour;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+.change-notes p {
+  font-size: 95%;
+}
+
+.related-links li {
+  margin-bottom: 17px;
+}
+
+.explore-topic {
+  border-top: 2px solid  $govuk-brand-colour;
+  padding-top: 10px;
+  margin-top: 50px;
+}
+
+.explore-topic p {
+  font-size: 95%;
+}
+
+.doc-container {
+  display: block;
+  height: 210px;
+}
+
+.doc-container p {
+margin-bottom: 10px;
+}
+
+.doc-icon {
+  background: white;
+  border: 4px solid $govuk-border-colour;
+  height: 140px;
+  width: 90px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.current-da-block  {
+  background: #f3f2f1;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.current-da-block p {
+  margin-bottom: 5px;
 }

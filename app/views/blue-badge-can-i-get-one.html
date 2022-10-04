@@ -1,0 +1,296 @@
+{% extends "layout.html" %}
+{% set bodyClasses = "start-page" %}
+{% set hideNav = true %}
+{% set hidePrimaryNav = true %}
+
+{% block pageTitle %}
+ {{ pageHeading }} - GOV.UK
+{% endblock %}
+
+{% set pageHeading = 'Universal Content Type' %}
+
+{% block beforeContent %}
+{# beforeContent is reseting default phase banner #}
+{% endblock %}
+
+{% block main %}
+<div class="start-page-banner">
+  <div class="govuk-width-container">
+     <div class="govuk-phase-banner">
+     <div class="govuk-grid-row">
+       <div class="govuk-grid-column-two-thirds">
+
+         <div class="shared-banner-elements">
+           <div class="govuk-breadcrumbs">
+       <ol class="govuk-breadcrumbs__list">
+         <li class="govuk-breadcrumbs__list-item">
+           <a class="govuk-breadcrumbs__link" href="#">Home</a>
+         </li>
+         <li class="govuk-breadcrumbs__list-item">
+           <a class="govuk-breadcrumbs__link" href="#">Transport</a>
+         </li>
+         <li class="govuk-breadcrumbs__list-item">
+           <a class="govuk-breadcrumbs__link" href="#">Transport accessibility and mobility</a>
+         </li>
+         <li class="govuk-breadcrumbs__list-item">
+           <a class="govuk-breadcrumbs__link" href="#">Blue badges</a>
+         </li>
+        
+       </ol>
+     </div>
+
+     <!-- Research banner -->
+     <!--
+         <div class="research-banner">
+           <p class="govuk-body-s">Research banner with <a href="#">link to a survey</a></p>
+           </div>
+         -->
+             <!-- Logo / crest -->
+           <div class="logo-1">
+             <div class="crest"></div>
+             <div class="dept-name">
+               <p class="govuk-body-m">
+                 <a class="dept-name-link" href="https://www.gov.uk/government/organisations/department-for-transport">Department</br>
+                 for Transport</a></p>
+               </div>
+             </div>
+
+         <h1 class="govuk-heading-xl">Who can get a Blue Badge</h1>
+
+         <p class="content-type-name">Guidance
+         <span class="content-desc">&mdash; Blue Badge parking for people with disabilities: who can get a badge and how to apply.</span></p>
+
+         <div class="page-actions-button">
+          <span class="govuk-body-s"><a href="#">Get emails about this page</a></span>
+         </div>
+
+         <div class="page-actions-button">
+         <span class="govuk-body-s"><a href="#">Print this page</a></span>
+         </div>
+        </div>
+       </div>
+
+       <div class="govuk-grid-column-one-third">
+         <div class="translations">
+           <div class="language-1">
+         <p class="govuk-body-s">English</p>
+       </div>
+
+         <div class="language-2">
+           <p class="govuk-body-s"><a href="#">Welsh</a></p>
+         </div>
+       </div>
+     </div>
+     </div>
+
+       </div>
+     </div>
+     </div>
+
+
+     <div class="govuk-width-container content-type-body">
+       <div class="govuk-grid-row">
+         <div class="govuk-grid-column-two-thirds">
+
+           <div class="metadata">
+            <div class="from-place">
+              <p class="govuk-body-s"><span class="strong">From:</span> Department for Transport</p>
+            </div>
+
+
+            <div class="publish-date">
+            <p class="govuk-body-s"><span class="strong">Published:</span> 29 March 2010 &mdash; <a href="#">See all updates</a></p>
+             </div>
+
+             </div>
+             </div>
+             </div>
+
+             <div class="govuk-width-container content-type-body">
+               <div class="govuk-grid-row">
+                 <div class="govuk-grid-column-two-thirds">
+
+                   <div class="current-da-block">
+                     <p class="govuk-body-m govuk-!-font-weight-bold">Applies to England</p>
+                     <p><a href="#">Publication for Wales</a> </p>
+                    <p><a href="#">Publication for Scotland</a></p>
+                    <p><a href="#">Publication for Northern Ireland</a></p>
+                     </div>
+
+                   <!--
+                   <!-- Devolved Administration picker
+                   <div class="devolved-admin-picker">
+                     <div class="devolved-admin-picker-selected">
+                   <p class="govuk-body-m">This guidance applies to England</span>
+                   </div>
+                   <div class="devolved-admin-picker-nations">
+                   <p class="govuk-body-s">See more guidance for <a href="#">Wales</a>, <a href="#">Scotland</a> and <a href="#">Northern Ireland</a></p>
+                   </div>
+                   </div>
+                   -->
+
+                   <!-- Main content -->
+                   <div class="main-content">
+
+                     <h2 class="govuk-heading-m">Documents</h2>
+
+                     <div class="doc-container">
+                     <div class="doc-icon">
+                       </div>
+                       <p class="govuk-body-l"><a href="#">Who can get a Blue Badge?</a></p>
+                       <p class="govuk-body-s">HTML</p>
+                       </div>
+
+
+                       <div class="doc-container">
+                       <div class="doc-icon">
+                         </div>
+                         <p class="govuk-body-l"><a href="#">Who can get a Blue Badge? (easy read version)</a></p>
+                         <p class="govuk-body-s">PDF, 2.24 MB, 13 pages</p>
+                         <p>This file may not be suitable for users of assistive technology.</p>
+
+                         <details class="govuk-details" data-module="govuk-details">
+                           <summary class="govuk-details__summary">
+                             <span class="govuk-details__summary-text">
+                               Request an accessible format.
+                             </span>
+                           </summary>
+                           <div class="govuk-details__text">
+                             If you use assistive technology (such as a screen reader) and need a version of this document in a more accessible format, please email webmasterdft@dft.gov.uk. Please tell us what format you need. It will help us if you say what assistive technology you use.
+                           </div>
+                         </details>
+                       </div>
+
+                         <div class="doc-container">
+                         <div class="doc-icon">
+                           </div>
+                           <p class="govuk-body-l"><a href="#">Who can get a Blue Badge? (large type version, for printing)</a></p>
+                           <p class="govuk-body-s">PDF, 236 KB, 10 pages</p>
+                           <p>This file may not be suitable for users of assistive technology.</p>
+                           <details class="govuk-details" data-module="govuk-details">
+                             <summary class="govuk-details__summary">
+                               <span class="govuk-details__summary-text">
+                                 Request an accessible format.
+                               </span>
+                             </summary>
+                             <div class="govuk-details__text">
+                               If you use assistive technology (such as a screen reader) and need a version of this document in a more accessible format, please email webmasterdft@dft.gov.uk. Please tell us what format you need. It will help us if you say what assistive technology you use.
+                             </div>
+                           </details>
+                            </div>
+
+
+
+
+                           <div class="doc-container">
+                           <div class="doc-icon">
+                             </div>
+                             <p class="govuk-body-l"><a href="#">Who can get a Blue Badge? (audio)</a></p>
+                             <p class="govuk-body-s">http://assets.dft.gov.uk/publications/blue-badge-audio/who-can-get-a-blue-badge.mp3</p>
+                            </div>
+
+
+                     <h2 class="govuk-heading-m">Details</h2>
+                     <p>A guide to who qualifies for a Blue Badge, including:</p>
+                     <ul class="govuk-list govuk-list--bullet">
+                       <li>who automatically qualifies for a Blue Badge</li>
+                       <li>people who may qualify</li>
+                       <li>applying for a Blue Badge with a non-visible (hidden) condition</li>
+                       <li>what you need to apply</li>
+                       <li>providing proof of benefits and eligibility</li>
+                       <li>badges for organisations</li>
+                       </ul>
+
+                        <h2 class="govuk-heading-m">Apply for a Blue Badge</h2>
+                       <p>In England, Scotland and Wales you can apply on GOV.UK for a Blue Badge.</p>
+
+                       <p>This guidance applies in England. Guidance is also available for Scotland and Wales.</p>
+
+                       <p>There’s a different way to apply if you're in Northern Ireland.</p>
+
+
+                       <div class="change-notes">
+                       <p>Published 29 March 2010</p>
+                       <p>Last updated 10 August 2021 <a href="#">+ show all updates</a></p>
+                       </div>
+
+                       <div class="explore-topic">
+                         <h2 class="govuk-heading-s">Explore the topic</h2>
+                         <p class="govuk-!-font-weight-bold"><a href="#">Blue badges</a></p>
+                         <p class="govuk-!-font-weight-bold"><a href="#">Local councils and services</a></p>
+                         </div>
+
+                       </div>
+
+
+
+
+                </div>
+
+                   <div class="govuk-grid-column-one-third related-links">
+                     <!-- Rel links -->
+                     <h2 class="govuk-heading-m app-related-items" id="subsection-title">
+                       Related content
+                     </h2>
+                     <nav role="navigation" aria-labelledby="subsection-title">
+                       <ul class="govuk-list govuk-!-font-size-16 related-links">
+                         <li>
+                           <a href="#">
+                             The Blue Badge scheme: rights and responsibilities in England
+
+                           </a>
+                         </li>
+                         <li>
+                           <a href="#">
+                             Determining eligibility for blue badge and concessionary travel
+                           </a>
+                         </li>
+                         <li>
+                           <li>
+                             <a href="#">
+                               Determining eligibility for blue badge and concessionary travel
+                             </a>
+                           </li>
+                           <li>
+                             <a href="#">
+                               Blue Badge research: eligibility for people with non-visible disabilities
+                             </a>
+                           </li>
+                           <li>
+                             <a href="#">
+                               Blue Badge scheme: review of eligibility criteria
+                             </a>
+                           </li>
+                           <li>
+                             <a href="#">
+                               Blue Badge (disabled parking) scheme eligibility consultation: summary of responses and outcome
+                             </a>
+                           </li>
+                       </ul>
+                     </div>
+                   </div>
+                   </div>
+
+
+
+
+
+
+
+         </div>
+
+
+ {# pulls in default gov uk template #}
+ {{super()}}
+{% endblock %}
+
+{% block content %}
+
+
+</div>
+</div>
+
+
+</div>
+
+{% endblock %}
