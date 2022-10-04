@@ -104,6 +104,10 @@ padding: 50px 0 40px 0;
   margin-top: -15px;
 }
 
+a.dept-name-link {
+    color: #0b0c0c;
+    text-decoration: none;
+}
 
 .crest {
   background: url(../images/crest.png) no-repeat 6px 0;
@@ -268,4 +272,18 @@ margin-bottom: 10px;
 
 .current-da-block p {
   margin-bottom: 5px;
+}
+
+.contents-menu {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.contents-menu li {
+  font-size: 80%;
+  padding-bottom: 7px;
+}
+
+.contents-menu a {
+  text-decoration: none;
 }
