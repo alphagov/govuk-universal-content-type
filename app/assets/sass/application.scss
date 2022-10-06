@@ -304,11 +304,56 @@ margin-bottom: 10px;
 .proto-label {
   background: pink;
   padding: 3px;
-  display: inline;
-  margin-bottom: 30px;
+  display: block;
 }
 
 .body-img {
   width: 90%;
   padding-bottom: 50px;
+}
+
+.live-metadata-block {
+  background: $govuk-brand-colour;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+  color: white !important;
+}
+
+.live-metadata-block p {
+  color: white !important;
+  margin-bottom: 2px;
+  font-size: 95%;
+}
+
+
+.gem-c-share-links__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.gem-c-share-links__list-item {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    min-height: 30px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.gem-c-share-links__title {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.share-link {
+  font-weight: bold;
+  float: left;
+}
+
+.share-links {
+  margin: 40px 0 60px 0;
+  display: block;
 }
