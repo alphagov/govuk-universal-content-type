@@ -130,8 +130,11 @@ a.dept-name-link {
 }
 
 .action-cta {
-  padding: 5px 5px 10px 0px;
-}
+      padding: 7px 5px 0 5px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+  }
 
 .print-btn {
   display: inline-block;
